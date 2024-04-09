@@ -5568,13 +5568,13 @@ export class InsertInCity1698197057578 implements MigrationInterface {
         INSERT INTO city("id", "name", "state_id") VALUES (5562, 'Tupiratins', 27);
         INSERT INTO city("id", "name", "state_id") VALUES (5563, 'Wanderlândia', 27);
         INSERT INTO city("id", "name", "state_id") VALUES (5564, 'Xambioá', 27);        
-        `)        
+        `)
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
         queryRunner.query(`
             DELETE FROM public.city;        
-        `)        
+        `)
     }
 
 }

@@ -13,7 +13,7 @@ export class AlterTableState1698196973784 implements MigrationInterface {
         queryRunner.query(`
         ALTER TABLE state
             drop uf;              
-        `)        
+        `)
     }
 
 }
